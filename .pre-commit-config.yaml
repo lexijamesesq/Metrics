@@ -12,6 +12,15 @@ repos:
       - id: gitleaks-staged
       - id: gitleaks-pre-push
       - id: gitleaks-commit-msg
+      - id: house-code
+      - id: house-scaffold-no-tracked-scratch
+      - id: house-scaffold-sample-shape
+        # .gitignore lists Claude Code's own standard per-user local-override
+        # settings file as an ignore pattern — that's not a reference to a
+        # repo-committed operator config, so it never needs a *.sample.*
+        # counterpart.
+        args: ['--exclude', '^\.gitignore$']
+      - id: house-scaffold-sample-placeholder
 
   - repo: local
     hooks:

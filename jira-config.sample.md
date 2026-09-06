@@ -1,5 +1,7 @@
 # Jira Configuration
 
+<!-- TODO: fill in your own values below, then copy to jira-config.md -->
+
 Atlassian connection details, project keys, and custom field IDs. Used by `/ux-bugs` and `/nps` (JPD watch list) skills.
 
 Copy this file to `jira-config.md` and fill in your values.
