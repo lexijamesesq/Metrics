@@ -1,5 +1,7 @@
 # Pendo Configuration
 
+<!-- TODO: fill in your own values below, then copy to pendo-config.md -->
+
 Connection and product-specific IDs for Pendo MCP and REST API queries. Used by `/nps` and `/usage` skills.
 
 Copy this file to `pendo-config.md` and fill in your values.
