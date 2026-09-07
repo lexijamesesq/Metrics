@@ -2,13 +2,7 @@ A Claude Code project that tracks five design metrics -- NPS qualitative feedbac
 
 ## Installation
 
-Clone the repo, then set up the Claude Code directory:
-
-```
-mv claude .claude
-```
-
-Copy the sample configs and fill in your values:
+Clone the repo. The Claude Code directory (`.claude/`) is included, so there is nothing to rename — copy the sample configs and fill in your values:
 
 ```
 cp .claude/instance.sample.md .claude/instance.md
