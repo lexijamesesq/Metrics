@@ -10,6 +10,8 @@ cp pendo-config.sample.md pendo-config.md
 cp jira-config.sample.md jira-config.md
 ```
 
+Your filled-in copies (`.claude/instance.md`, `pendo-config.md`, `jira-config.md`) are gitignored — only the `*.sample.*` templates are tracked, so your own values never get committed.
+
 ### Required configuration
 
 | Field | Location | What to set |
